@@ -1,8 +1,5 @@
-/*
-1'den 100'e kadar olan sayıları kontrol eder ve hangilerinin asal olduğunu ekrana yazdırır. 
-Asal sayılar, sadece kendilerine ve 1'e bölünebilen sayılardır.
-*/
-public class AsalSayilar {
+//1'den 100'e kadar olan sayıları kontrol eder ve hangilerinin asal olduğunu ekrana yazdırır. 
+public class AsalSayilar { //Asal sayılar, sadece kendilerine ve 1'e bölünebilen sayılardır.
 
     public static void main(String[] args) {
 
