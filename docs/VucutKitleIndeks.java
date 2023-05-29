@@ -1,8 +1,4 @@
-  /*
-        Kullanıcıdan aldığınız boy ve kilo değerlerine göre kullanıcının beden kitle indeksini bulun.
-
-        Beden Kitle İndeksi : Kilo / Boy(m) * Boy(m)
-  */
+//Kullanıcıdan aldığınız boy ve kilo değerlerine göre kullanıcının beden kitle indeksini bulan program
 import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
