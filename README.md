@@ -1,6 +1,6 @@
 # Patika
 
-6 aylık bootcamp ödevlerini PATIKA deposu altında paylaşıyor olacağım.
+6 aylık bootcamp ödevlerini-projelerini PATIKA deposu altında paylaşıyor olacağım.
 
 
 
@@ -56,5 +56,9 @@
 
 
 
-14-
+14-AsalSayi
+
+
+
+15-Fibonacci
 
