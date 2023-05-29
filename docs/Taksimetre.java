@@ -1,10 +1,11 @@
+//Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran program
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double mesafe, tutar;
-        System.out.print("Gidilen mesafe (km): ");
+        System.out.print("Gidilen mesafe (km): "); // İlk olarak, kullanıcıdan mesafe bilgisi alınır ve "mesafe" adlı değişkene atanır. 
         mesafe = input.nextDouble();
         
         tutar = mesafe * 2.20 + 10.0; // taksimetre açılış ücreti
@@ -13,7 +14,7 @@ public class Main {
             tutar = 20.0; // minimum ödenecek tutar
         }
         
-        System.out.printf("Tutar: %.2f TL", tutar);
+        System.out.printf("Tutar: %.2f TL", tutar); //hesaplanan tutar ekrana yazdırılır
         input.close();
     
     
