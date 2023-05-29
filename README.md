@@ -44,11 +44,11 @@
 
 
 
-11-
+11-MinMax
 
 
 
-12-
+12-MukemmelSayi
 
 
 
