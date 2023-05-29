@@ -12,11 +12,12 @@ public class ChinZodiacCalculation {
     public static void main(String[] args) {
         int yearOfBirth;
         String chineseZodiac = "";
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Lütfen doğum yılınızı giriniz: ");
+        Scanner sc = new Scanner(System.in); // kullanıcı girişi için Scanner sınıfı kullanıyoruz
+        System.out.print("Lütfen doğum yılınızı giriniz: "); // kullanıcıdan doğum yılını alıyoruz
         yearOfBirth = sc.nextInt();
         
-        switch (yearOfBirth % 12) {
+        switch (yearOfBirth % 12) { // Çin zodyağı hayvanlarının listesi ve kullanıcın doğum yılının Çin zodyağındaki indeksi
+
             case 0:
                 chineseZodiac = "Maymun";
                 break;
@@ -54,7 +55,7 @@ public class ChinZodiacCalculation {
                 chineseZodiac = "Koyun";
                 break;
         }
-        System.out.println("Çin zodyağı burcunuz: " + chineseZodiac);
+        System.out.println("Çin zodyağı burcunuz: " + chineseZodiac); // hesaplanan değeri yazdırıyoruz
     }
   /*
   Çin Zodyağı nedir?
