@@ -1,4 +1,4 @@
-
+//Java ile basamak sayısının kullanıcıdan alınan ve döngüler kullanılarak, yıldızlar(*) ile ekrana ters üçgen çizen program
 import java.util.Scanner;
 
 public class TersUcgen {
@@ -19,8 +19,9 @@ public class TersUcgen {
 
 /*
 Porgram:
-- `Scanner` sınıfını kullanarak kullanıcıdan bir tamsayı (basamak sayısı) istiyoruz.
-- İlk döngü yapısmızda `i` adındaki değişkenimiz basamak sayısından başlayarak azalmakta. Her bir azalmaya karşılık olarak, ikinci döngü yapımızda `j` adındaki değişkenimiz, `i` kadar yıldız (*) yazdırıyor.
-- Döngülerimiz tamamlandığında, `input.close()` komutunu kullanarak kullanıcı girdisini kapatıyoruz. 
+- Scanner sınıfını kullanarak kullanıcıdan bir tamsayı (basamak sayısı) istiyoruz.
+- İlk döngü yapısmızda i adındaki değişkenimiz basamak sayısından başlayarak azalmakta. Her bir azalmaya karşılık olarak, ikinci döngü yapımızda j adındaki değişkenimiz, 
+i kadar yıldız (*) yazdırıyor.
+- Döngülerimiz tamamlandığında, input.close() komutunu kullanarak kullanıcı girdisini kapatıyoruz. 
 - Bu program çalıştırıldığında, kullanıcıdan alınan sayıya göre ekrana ters üçgen çizdirir.
 */
