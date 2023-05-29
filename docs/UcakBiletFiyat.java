@@ -1,17 +1,4 @@
-/*
- Bu program, kullanıcıdan mesafe, yaş ve yolculuk tipi bilgilerini alacak ve aldığı bu bilgilere göre uçak biletinin toplam ücretini hesaplayacak. 
- Buna ek olarak aşağıdaki indirimleri uygulayacak:
-- Kullanıcının yaş değeri 12'den küçükse, bilet fiyatı üzerinden %50 indirimi uygulanacak.
-- Kullanıcının yaş değeri 12-24 arasında ise, bilet fiyatı üzerinden %10 indirimi uygulanacak.
-- Kullanıcının yaş değeri 65'ten büyükse, bilet fiyatı üzerinden %30 indirim uygulanacak.
-- Kullanıcının yolculuk tipi gidiş dönüş seçmişse, bilet fiyatı üzerinden %20 indirim uygulanacak.
-Kullanıcıdan alınan değerler doğru değilse, program kullanıcıya "Hatalı veri girdiniz!" şeklinde bir uyarı verecek. 
-Başlamak için, ilk olarak kullanıcıdan mesafe, yaş ve yolculuk tipi bilgilerini alınacaktır. 
-Mesafe değeri girildikten sonra, program mesafeyi 0,10 TL / km oranında çarpacak ve toplam fiyatı hesaplayacaktır.
-Sonrasında, kullanıcının yaş değeri kontrol edilecek ve ilgili indirimler bilet fiyatına uygulanacaktır. 
-Yolculuk tipi de kontrol edilecek ve ilgili indirim bu bilgiye göre uygulanacaktır.
-Eğer kullanıcının girdiği veri doğru değilse, program kullanıcıya bir uyarı mesajı verecek ve programı yeniden başlatması gerekecek.
-*/
+//Kullanıcıdan mesafe, yaş ve yolculuk tipi bilgilerini alacak ve aldığı bu bilgilere göre uçak biletinin toplam ücretini hesaplayacak program
 import java.util.Scanner;
 public class UcakBiletiHesaplama {
 
@@ -63,6 +50,20 @@ public class UcakBiletiHesaplama {
         }
         //Hesaplanan değer "toplamfiyat" ekrana yazdırılır
         System.out.println("Toplam fiyat: " + toplamFiyat + " TL");
+ /*
+ Önemli kurallar:
+- Kullanıcının yaş değeri 12'den küçükse, bilet fiyatı üzerinden %50 indirimi uygulanacak.
+- Kullanıcının yaş değeri 12-24 arasında ise, bilet fiyatı üzerinden %10 indirimi uygulanacak.
+- Kullanıcının yaş değeri 65'ten büyükse, bilet fiyatı üzerinden %30 indirim uygulanacak.
+- Kullanıcının yolculuk tipi gidiş dönüş seçmişse, bilet fiyatı üzerinden %20 indirim uygulanacak.
+Kullanıcıdan alınan değerler doğru değilse, program kullanıcıya "Hatalı veri girdiniz!" şeklinde bir uyarı verecek. 
+Başlamak için, ilk olarak kullanıcıdan mesafe, yaş ve yolculuk tipi bilgilerini alınacaktır. 
+Mesafe değeri girildikten sonra, program mesafeyi 0,10 TL / km oranında çarpacak ve toplam fiyatı hesaplayacaktır.
+Sonrasında, kullanıcının yaş değeri kontrol edilecek ve ilgili indirimler bilet fiyatına uygulanacaktır. 
+Yolculuk tipi de kontrol edilecek ve ilgili indirim bu bilgiye göre uygulanacaktır.
+Eğer kullanıcının girdiği veri doğru değilse, program kullanıcıya bir uyarı mesajı verecek ve programı yeniden başlatması gerekecek.
+*/
+    
     }
 }
 
