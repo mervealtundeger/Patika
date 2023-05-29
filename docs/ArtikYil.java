@@ -1,3 +1,4 @@
+//Java ile kullanıcının girdiği yılın artık olup olmadığını bulan program
 import java.util.Scanner;
 
 public class ArtikYil {
