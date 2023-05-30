@@ -80,3 +80,9 @@
 18-DesenMethod
 -->Java dilinde kullanıcıdan alınan n değerine göre aşağıdaki kurala uyan döngü kullanmadan bir "Recursive" metot yazımı
 
+
+
+19-MaasHesaplama
+-->Employee adlı sınıf verilen kurallar dahilinde, bir fabrika çalışanının maaşını hesaplamak, vergi ve bonuslarını hesaplamak ve zam yapmak için kullanılabilecek program
+
+
