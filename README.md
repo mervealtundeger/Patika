@@ -101,3 +101,7 @@
 
 23-SayiTahminOyunu
 -->Java dilinde programın 0-100 arasında rastgele seçtiği bir sayıyı kullanıcının tahmin etmesini istediğimiz bir "Sayı Tahmin Oyunu" programını kodluyoruz
+
+
+24-PalindromikKelime
+-->Java dilinde kullanıcının girdiği kelimenin "Palindromik" olup olmadığı bulan bir program 
