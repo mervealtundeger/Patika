@@ -93,3 +93,7 @@
 
 21-DiziElemanFrekans
 -->Java dilinde, dizideki elemanların kaç kez tekrar edildiğini yani frekanslarını bulan program
+
+
+22-MatrisTranspoz
+-->Java dilinde, çok boyutlu diziler ile oluşturulmuş matrisin transpozunu bulan program
