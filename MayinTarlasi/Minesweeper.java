@@ -134,5 +134,13 @@ public class Minesweeper {
         }
     }
 }
-
+/*
+play() yöntemi, kullanıcıdan satır ve sütun koordinatları biçiminde giriş yapmasını isteyen bir döngü içerir
+Girişin geçerli olup olmadığını, bir mayın olup olmadığını ve hücrenin zaten işaretlenmiş olup olmadığını kontrol eder
+Daha sonra tahtayı günceller ve bir kazanma durumunu kontrol eder
+isvalid() yöntemi, bir giriş koordinatının oyun tahtasının sınırları içinde olup olmadığını kontrol eder
+printboard() yöntemi, oyun tahtasının mevcut durumunu yazdırır
+countmines() yöntemi, belirtilen bir hücrenin komşu hücrelerinde kaç tane mayın olduğunu belirler
+uncoverneighbors() yöntemi, komşu mayınlara sahip hücrelere çarpana kadar tüm komşu hücreleri yinelemeli olarak ortaya çıkarır.
+*/
 
