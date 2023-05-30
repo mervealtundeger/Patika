@@ -86,3 +86,6 @@
 -->Employee adlı sınıf verilen kurallar dahilinde, bir fabrika çalışanının maaşını hesaplamak, vergi ve bonuslarını hesaplamak ve zam yapmak için kullanılabilecek program
 
 
+
+20-DiziSiralama
+-->Java dilinde, dizideki elemanları küçükten büyüğe sıralayan programı yazınız. Dizinin boyutunu ve dizinin elemanlarını kullanıcıdan alan program
