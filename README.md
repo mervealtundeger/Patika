@@ -89,3 +89,7 @@
 
 20-DiziSiralama
 -->Java dilinde, dizideki elemanları küçükten büyüğe sıralayan programı yazınız. Dizinin boyutunu ve dizinin elemanlarını kullanıcıdan alan program
+
+
+21-DiziElemanFrekans
+-->Java dilinde, dizideki elemanların kaç kez tekrar edildiğini yani frekanslarını bulan program
